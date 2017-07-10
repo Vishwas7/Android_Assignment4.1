@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/lib/com.vishwas.creditcardapplication"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00CC99"
+    tools:context="com.vishwas.loginscreen.MainActivity">
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="106dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Email"
+        android:background="@color/snow"/>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Password"
+        android:background="@color/snow"
+        android:layout_below="@+id/editText3"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignStart="@+id/editText3" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="380dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:text="Login"
+        android:background="@color/WhiteSmoke"
+        android:layout_below="@+id/editText4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Not a member?Sign up now."
+        android:textSize="17dp"
+        android:background="#00CC99"/>
+</RelativeLayout>
+
